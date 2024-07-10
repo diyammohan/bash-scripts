@@ -1,0 +1,1 @@
+log_monitoring.sh is a simple Bash script that reads entries from /var/log/auth.log to find instances of 'authentication failure'. If such entries are found, they are written to the report. Report files are generated every 60 seconds.
